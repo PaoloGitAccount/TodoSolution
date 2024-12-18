@@ -1,0 +1,39 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28701.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApi", "TodoApi\TodoApi.csproj", "{GUID_FOR_TODO_API_PROJECT}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoBlazorApp", "TodoBlazorApp\TodoBlazorApp.csproj", "{GUID_FOR_TODO_BLAZOR_APP_PROJECT}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoReactApp", "TodoReactApp\TodoReactApp.csproj", "{GUID_FOR_TODO_REACT_APP_PROJECT}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoTests", "TodoTests\TodoTests.csproj", "{GUID_FOR_TODO_TESTS_PROJECT}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{GUID_FOR_TODO_API_PROJECT}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{GUID_FOR_TODO_API_PROJECT}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{GUID_FOR_TODO_API_PROJECT}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{GUID_FOR_TODO_API_PROJECT}.Release|Any CPU.Build.0 = Release|Any CPU
+		{GUID_FOR_TODO_BLAZOR_APP_PROJECT}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{GUID_FOR_TODO_BLAZOR_APP_PROJECT}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{GUID_FOR_TODO_BLAZOR_APP_PROJECT}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{GUID_FOR_TODO_BLAZOR_APP_PROJECT}.Release|Any CPU.Build.0 = Release|Any CPU
+		{GUID_FOR_TODO_REACT_APP_PROJECT}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{GUID_FOR_TODO_REACT_APP_PROJECT}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{GUID_FOR_TODO_REACT_APP_PROJECT}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{GUID_FOR_TODO_REACT_APP_PROJECT}.Release|Any CPU.Build.0 = Release|Any CPU
+		{GUID_FOR_TODO_TESTS_PROJECT}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{GUID_FOR_TODO_TESTS_PROJECT}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{GUID_FOR_TODO_TESTS_PROJECT}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{GUID_FOR_TODO_TESTS_PROJECT}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
